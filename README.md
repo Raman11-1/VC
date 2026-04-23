@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains the complete implementation for two parts:
 
@@ -17,7 +17,7 @@ This repository contains the complete implementation for two parts:
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 VC/
@@ -50,7 +50,7 @@ VC/
 
 ---
 
-## 📄 Part 1: Base Paper — PH-Reg
+##  Part 1: Base Paper — PH-Reg
 
 ### Paper Reference
 > **"Vision Transformers with Self-Distilled Registers"**  
@@ -84,7 +84,7 @@ PH-Reg solves this via **self-distillation**:
 | **Flickr30k** | Kaggle | `ramansss/vt-ph-reg` → `flickr30k-images/` |
 
 > Dataset path on Kaggle: `/kaggle/input/datasets/ramansss/vt-ph-reg/flickr30k-images`  
-> ⚠️ Dataset is **NOT included** in this repo. Access via Kaggle dataset above.
+>  Dataset is **NOT included** in this repo. Access via Kaggle dataset above.
 
 #### Pre-trained Model
 | Model | Source | Kaggle Path |
@@ -115,7 +115,7 @@ DEVICE          = "cuda"          # Requires GPU
 
 ---
 
-## 🔬 Part 2: Novelty — FDA + AAAL
+##  Part 2: Novelty — FDA + AAAL
 
 ### Title
 **"Frequency-Domain Augmentation and Artifact-Aware Adaptive Loss for Post-Hoc Register Learning in Vision Transformers"**
@@ -170,7 +170,7 @@ Loss = Σ(weight_i × per_patch_loss_i) / Σ(weight_i)
 # CIFAR-10 auto-downloads on first run
 dataset = datasets.CIFAR10(root="/kaggle/working/data", train=True, download=True, ...)
 ```
-> ⚠️ No manual dataset download needed for the novelty notebook — CIFAR-10 is fetched automatically.
+>  No manual dataset download needed for the novelty notebook — CIFAR-10 is fetched automatically.
 
 #### Key Configuration
 ```python
@@ -216,7 +216,7 @@ Patch Tokens (196 × 768)  ← output
 
 ---
 
-## ⚙️ Hardware & Software Requirements
+##  Hardware & Software Requirements
 
 | Component | Requirement |
 |-----------|-------------|
@@ -228,7 +228,7 @@ Patch Tokens (196 × 768)  ← output
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 ### Base Paper (PH-Reg Reproduction)
 - Successfully reproduced PH-Reg pipeline on Flickr30k
@@ -243,7 +243,7 @@ Patch Tokens (196 × 768)  ← output
 
 ---
 
-## 📂 Submitted Files
+##  Submitted Files
 
 | File | Type | Description |
 |------|------|-------------|
@@ -258,7 +258,7 @@ Patch Tokens (196 × 768)  ← output
 
 ---
 
-## 📚 References
+##  References
 
 1. **Yan et al. (PH-Reg)** — "Vision Transformers with Self-Distilled Registers" *(Base Paper)*
 2. **Darcet et al.** — "Vision Transformers Need Registers" — characterized artifact tokens in DINOv2
@@ -269,7 +269,7 @@ Patch Tokens (196 × 768)  ← output
 
 ---
 
-## 🔗 Links
+##  Links
 
 - **GitHub Repository:** [https://github.com/Raman11-1/VC](https://github.com/Raman11-1/VC)
 - **PH-Reg Official Code:** [https://github.com/0raiser0/PH-Reg](https://github.com/0raiser0/PH-Reg)
