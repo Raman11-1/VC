@@ -1,4 +1,4 @@
-# Visual Computing (VC) — SEM 2 Final Project
+# Visual Computing (VC) — SEM 2 
 ### IIT Hyderabad | M.Tech CSE | Course: Visual Computing
 **Student:** Raman S. Mankar (`cs25mtech14025@iith.ac.in`)  
 **Course Instructor:** Prof. C. Krishna Mohan | **TA:** Ankita Das  
